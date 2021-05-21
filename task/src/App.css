@@ -1,0 +1,77 @@
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.app{
+  height: 100vh;
+  width: 100%;
+}
+.header{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #272727;
+  color: #fff;
+}
+.header .logo{
+  color: seashell;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.header .logout{
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: all .3s ease;
+}
+.header .logout:hover{
+  transform: scale(1.1);
+}
+.footer{
+  position: absolute;
+  background-color: #272727;
+  width: 100%;
+  color: #fff;
+  font-size: 22px;
+  padding: 20px;
+}
+.main{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+
+  position: relative;
+}
+.employee-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.employee-card div{
+  margin: 0 10px;
+}
+.makeStyles-paper-14 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  max-width: 500px;
+  border-radius: 0px;
+  margin: 0 !important;
+}
